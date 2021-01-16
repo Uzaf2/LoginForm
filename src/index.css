@@ -5,9 +5,149 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #227279;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.center {
+  display: grid;
+  background-color: aliceblue;
+  width: 500px;
+  height: 500px;
+  margin-left: 500px;
+}
+
+.formDiv1{
+ padding-top: 100px;
+}
+
+.LoginHeading{
+  font-size: 22px;
+}
+.formDiv2{
+margin-top: 100px;
+}
+
+.div1{
+  top: 0;
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  height: 500px;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.div2{
+  position: absolute;
+  top: 0;
+  left: 65%;
+  width: 35%;
+  height: 500px;
+  overflow: hidden;
+  transition: transform 0.6s ease-in-out;
+  z-index: 100;
+  background-color: #08538C;
+  
+}
+
+input {
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+}
+
+.App {
+  background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    width: 1000px;
+    height: 400px;
+    max-width: 100%;
+    min-height: 500px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Form1{
+  margin-top: 200px;
+}
+
+.Form2 {
+  position: relative;
+}
+
+input {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #007C89;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+  margin-top: 20px;
+}
+
+.heading {
+  font-size: 35px;
+  margin-left: 520px;
+  margin-top: 50px;
+  color: white;
+}
+input[type=submit] {
+  background-color: #EE3625;
+  color: white;
+  cursor: pointer;
+}
+
+.btn1{
+  margin-top: 30px;
+  padding-top: 15px;
+}
+
+.btn1:hover {
+  background-color: #008080;
+}
+
+.btn2:hover {
+  background-color: #008080;
+}
+
+.LoginHeading {
+  color: white;
+}
+
+.btn2 {
+  margin-top: 20px;
+  margin-left: 15px;
+  width: 100px;
+}
+
+.name {
+  background-color: white;
+}
+
+.password {
+  background-color: white;
+}
+
+.email {
+  background-color: white;
+}
+
+
